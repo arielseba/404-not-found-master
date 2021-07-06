@@ -51,6 +51,10 @@ button{
 font-family: 'Source Code Pro', monospace;
    height: 68px;
 }
+footer{
+   color: gray;
+   text-align: center;
+}
 
 @media screen and (max-width: 1000px){
    #header{
@@ -67,21 +71,24 @@ font-family: 'Source Code Pro', monospace;
       
       #container-img{
        margin-top: 10%;
+       
         }
       
       #container h1{
-         padding: 0%;
-          font-weight: bold;
+      padding: 0%;
+      font-weight: bold;
       font-size: 250%;
-      width: 100%;
+      width: auto;
       margin-left: 5%;
       margin-right: auto;
+      
       }
       
       #container h3{
       font-family: 'Space Mono';
       width: 100%;
       margin-left: 5%;
+      width: auto;
       
       }
       
@@ -100,5 +107,7 @@ font-family: 'Source Code Pro', monospace;
       }
       
 
-
+      footer{
+       margin-top: 15%;
+      }
 }
